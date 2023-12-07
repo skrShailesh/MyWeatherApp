@@ -7,22 +7,27 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+/* Your existing CSS styles go here */
+
 body {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #2b40ff, #07121a);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url('images/8950745.jpg') center/cover no-repeat; /* Add this line */
 }
 
 .mainContainer {
-  width: 25rem;
-  height: auto;
-  border-radius: 1rem;
-  background: #fff;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-    0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 25rem;
+    height: auto;
+    border-radius: 1rem;
+    background: rgba(169, 169, 169, 0.8);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
+/* Rest of your styles */
+
 
 .searchInput {
   width: 100%;
@@ -147,43 +152,7 @@ body {
 }
 
 .card {
-    width: calc(150px + 15%);
-    padding: 13px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
-}
-
-.cardTitle {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-
-.cardContent {
-    text-align: center;
-}
-
-.date,
-.city,
-.temperature,
-.humidity,
-.windSpeed {
-    font-size: 1rem;
-    color: #323232;
-}
-/* Your existing CSS styles go here */
-
-.weatherCards {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.card {
-    width: calc(150px + 15%);
+    width: calc(150px + 50%);
     padding: 13px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgb(128, 128, 255);
