@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right,  #2b40ff,#07121a);
+  background: linear-gradient(to right, #2b40ff, #07121a);
 }
 
 .mainContainer {
@@ -20,8 +20,8 @@ body {
   height: auto;
   border-radius: 1rem;
   background: #fff;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-			0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .searchInput {
@@ -42,7 +42,7 @@ body {
   border: 1px solid #b3b3b3;
 }
 
-.searchInput input: focus {
+.searchInput input:focus {
   border: 1px solid #9c9dde;
 }
 
@@ -58,7 +58,7 @@ body {
   border: 1px solid #b3b3b3;
 }
 
-.searchInput button: hover {
+.searchInput button:hover {
   color: #fff;
   background-color: #9c9dde;
   border: 1px solid #9c9dde;
@@ -76,9 +76,10 @@ body {
   width: 8rem;
 }
 
-.weatherDetails .temp{
- font-size: 2rem;
+.weatherDetails .temp {
+  font-size: 2rem;
 }
+
 .cityDetails {
   color: #323232;
   font-size: 2.5rem;
@@ -107,7 +108,7 @@ body {
 }
 
 .windDetails .humidity .humidityValue {
- text-align: center;
+  text-align: center;
   font-size: 2rem;
   color: #323232;
 }
@@ -128,9 +129,83 @@ body {
   margin-right: 0.5rem;
 }
 
+.image-logo {
+  height: auto;
+  width: auto;
+  filter: drop-shadow(20px 10px 10px black);
+}
 
-image-logo{
-        height: auto;
-        width: auto;
-        filter: drop-shadow(20px 10px 10px black);
-      }
+
+
+/* Your existing CSS styles go here */
+
+.weatherCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: calc(150px + 15%);
+    padding: 13px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cardContent {
+    text-align: center;
+}
+
+.date,
+.city,
+.temperature,
+.humidity,
+.windSpeed {
+    font-size: 1rem;
+    color: #323232;
+}
+/* Your existing CSS styles go here */
+
+.weatherCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    width: calc(150px + 15%);
+    padding: 13px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(128, 128, 255);
+    margin-bottom: 20px;
+    background-color: rgb(229, 229, 229); /* Adjust the alpha value for transparency */
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cardContent {
+    text-align: center;
+}
+
+.date,
+.city,
+.temperature,
+.humidity,
+.windSpeed {
+    font-size: 1rem;
+    color: rgb(4, 4, 4);
+}
