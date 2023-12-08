@@ -158,6 +158,9 @@ body {
     box-shadow: 0 4px 8px rgb(128, 128, 255);
     margin-bottom: 20px;
     background-color: rgb(243, 243, 243); /* Adjust the alpha value for transparency */
+    align-content: center;
+    margin-left: 6%;
+    
 }
 
 .cardTitle {
@@ -170,6 +173,7 @@ body {
     text-align: center;
 }
 
+.weatherIcon img,
 .date,
 .city,
 .temperature,
@@ -177,4 +181,5 @@ body {
 .windSpeed {
     font-size: 1rem;
     color: rgb(4, 4, 4);
+    align-self: center;
 }
