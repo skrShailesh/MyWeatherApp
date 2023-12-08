@@ -7,14 +7,14 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-/* Your existing CSS styles go here */
+
 
 body {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background: url('images/8950745.jpg') center/cover no-repeat; /* Add this line */
+    background: url('images/8950745.jpg') center/cover no-repeat; 
 }
 
 .mainContainer {
