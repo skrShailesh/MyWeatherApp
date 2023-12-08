@@ -44,12 +44,12 @@ public class MyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		//API Key
-		String apiKey = "4afff7a8e0673bee44f55b585e23ce1d";
+		String apiKey = "ADD YOUR OWN API KEY";
 		// Get the city from the form input
         String city = request.getParameter("city"); 
 
         // Create the URL for the OpenWeatherMap API request
-	    String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
+	    String apiUrl = "https://api.openweathermap.org, CREATE YOUR OWN URL" + city + "&appid=" + apiKey;
 
 	    URL url = new URL(apiUrl);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
