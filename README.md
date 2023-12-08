@@ -1,5 +1,4 @@
 # MyWeatherApp
- A Weather web App using HTML, CSS, JS, Java, Servlet, JSP & OpenWeather API
 ### Welcome to the Weather Web App
 This Beautiful Weather Web App allows users to check the current weather conditions by entering the city name. It leverages the OpenWeatherMap API to fetch real-time weather data.
 ## Technologies Used
