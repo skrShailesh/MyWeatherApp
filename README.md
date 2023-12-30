@@ -9,7 +9,7 @@ This Beautiful Weather Web App allows users to check the current weather conditi
 <br><li>Click the search button.
 <br><li>View detailed weather information, including temperature, humidity, wind speed, and weather condition.
 
-## Opeming Page
+## Opening Page
 ![Screenshot 2023-12-08 213913 (2)](https://github.com/skrShailesh/MyWeatherApp/assets/114929285/b599f043-4f2c-4d8d-bfa5-2f98b827d7b8)
 
 ## Result page
