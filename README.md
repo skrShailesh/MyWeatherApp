@@ -29,7 +29,8 @@ This Beautiful Weather Web App allows users to check the current weather conditi
  
 ## JSP (index.jsp)
 <li>The index.jsp page receives the weather data and dynamically displays it.
-<br><li>It utilizes JSTL (JavaServer Pages Standard Tag Library) to embed Java code within HTML.
+<br><li>It utilizes JSTL (JavaServer Pages Standard Tag Library) to embed Java code within HTML. 
+ 
 ## CSS (style.css)
 <li>The CSS file provides styling for the web application, creating an attractive and responsive user interface.
  
